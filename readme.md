@@ -21,13 +21,21 @@ This is a Django-based web application for a blogging website. It allows users t
 
 ## Setup Instructions
 
-Clone the repository: git clone https://github.com/praneetha28-ai/MyBlog.git
-Navigate to the project directory: cd newsapp
-Create a virtual environment (optional but recommended): python -m venv venv
-Activate the virtual environment:
-On Windows: venv\Scripts\activate
-On macOS/Linux: source venv/bin/activate
-Install the project dependencies: pip install -r requirements.txt
-Run the database migrations: python manage.py migrate
-Start the development server: python manage.py runserver
-Open your web browser and access the website at http://localhost:8000
+To run the NewsApp Django project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/praneetha28-ai/MyBlog.git`
+2. Navigate to the project directory: `cd blogapp`
+3. Create a virtual environment (optional but recommended): `python -m venv venv`
+4. Activate the virtual environment: 
+   - On Windows: `venv\Scripts\activate`
+   - On macOS/Linux: `source venv/bin/activate`
+5. Install the project dependencies: `pip install -r requirements.txt`
+6. Run the database migrations: `python manage.py migrate`
+7. Start the development server: `python manage.py runserver`
+8. Open your web browser and access the website at `http://localhost:8000`
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to contribute, report issues, or provide feedback.
